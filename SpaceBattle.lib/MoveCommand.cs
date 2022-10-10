@@ -1,8 +1,12 @@
-namespace SpaceBattle.lib;
+namespace SpaceBattle.Lib;
 
 public class MoveCommand:ICommand{
-    
-    public void execute(IMovable obj){
+    IMovable obj;
+    public MoveCommand(IMovable a)
+    {
+        obj = a;
+    }
+    public void execute(){
         obj.setpos();
     }
 }

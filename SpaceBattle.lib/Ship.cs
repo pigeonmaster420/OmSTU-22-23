@@ -1,10 +1,16 @@
 ﻿using System.Numerics;
-namespace SpaceBattle.lib;
+namespace SpaceBattle.Lib;
 public class Ship: IMovable, IRotatable
 {
     private float angle;
     private Vector2 spd;
     private Vector2 pos;
+    public Ship(Vector2 a, Vector2 p, float k)
+    {
+        angle = k;
+        spd = a;
+        pos = p;
+    }
     public Vector2 getpos(){
         return pos;
     }
