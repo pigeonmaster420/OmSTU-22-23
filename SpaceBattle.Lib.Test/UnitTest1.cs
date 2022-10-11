@@ -79,5 +79,21 @@ public class RotateTests
     public void NegativeCantGetAngle()
     {
         var mock = new Mock<IRotatable>();
+        mock.SetupProperty<float>(m => m.angle, 0);
+        mock.SetupGet<float>(m => m.rotatespd).Returns(30);
+        mock.SetupGet(m => m.angle).Throws<Exception>();
+        RotateCommand rotate = new RotateCommand(mock.Object);
+
+        Assert.Throws<Exception>(() => rotate.execute());
+    }
+    [Fact]
+    public void NegativeCantGetRotateSpeed()
+    {
+        var mock = new Mock<IRotatable>();
+        mock.SetupProperty<float>(m => m.angle, 0);
+        mock.SetupGet(m => m.rotatespd).Throws<Exception>();
+        RotateCommand rotate = new RotateCommand(mock.Object);
+
+        Assert.Throws<Exception>(() => rotate.execute());
     }
 }
