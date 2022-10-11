@@ -2,14 +2,12 @@ namespace SpaceBattle.Lib;
 
 public class RotateCommand:ICommand{
     IRotatable obj;
-    float rttspd;
-    RotateCommand(IRotatable a, float rotatespd)
+    public RotateCommand(IRotatable a)
     {
         obj = a;
-        rttspd = rotatespd;
     }
     public void execute()
     {
-        obj.setangle(rttspd);
+        obj.angle = obj.angle + obj.rotatespd;
     }
 }

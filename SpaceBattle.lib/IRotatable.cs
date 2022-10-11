@@ -4,6 +4,9 @@ public interface IRotatable
 {
     float angle{
         get;
+        set;
     }
-    void setangle(float a);
+    float rotatespd{
+        get;
+    }
 }

@@ -6,6 +6,9 @@ public class Ship: IMovable, IRotatable
         get;
         set;
     }
+    public float rotatespd{
+        get;
+    }
     public Vector2 spd{
         get;
         set;
@@ -19,12 +22,5 @@ public class Ship: IMovable, IRotatable
         angle = k;
         spd = a;
         pos = p;
-    }
-    public float getangle(){
-        return angle;
-    }
-    public void setangle(float a)
-    {
-        angle = a;
     }
 }
