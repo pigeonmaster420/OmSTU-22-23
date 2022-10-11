@@ -4,9 +4,9 @@ public class MoveCommand:ICommand{
     IMovable obj;
     public MoveCommand(IMovable a)
     {
-        obj = a;
+        this.obj = a;
     }
     public void execute(){
-        obj.setpos();
+        obj.pos = obj.pos + obj.spd;
     }
 }

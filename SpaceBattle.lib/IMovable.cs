@@ -3,7 +3,11 @@ namespace SpaceBattle.Lib;
 
 public interface IMovable
 {
-    Vector2 getpos();
-    Vector2 getspd();
-    void setpos();
+    Vector2 pos{
+        get;
+        set;
+    }
+    Vector2 spd{
+        get;
+    }
 }

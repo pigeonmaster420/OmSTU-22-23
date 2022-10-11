@@ -2,6 +2,8 @@ namespace SpaceBattle.Lib;
 
 public interface IRotatable
 {
-    float getangle();
+    float angle{
+        get;
+    }
     void setangle(float a);
 }
