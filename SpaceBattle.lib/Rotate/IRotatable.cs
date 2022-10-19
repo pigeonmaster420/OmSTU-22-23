@@ -2,11 +2,13 @@ namespace SpaceBattle.lib;
 
 public interface IRotatable
 {
-    float angle{
+    float angle
+    {
         get;
         set;
     }
-    float rotatespd{
+    float rotatespd
+    {
         get;
     }
 }

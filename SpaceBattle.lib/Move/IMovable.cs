@@ -3,11 +3,13 @@ namespace SpaceBattle.lib;
 
 public interface IMovable
 {
-    Vector2 pos{
+    Vector2 pos
+    {
         get;
         set;
     }
-    Vector2 spd{
+    Vector2 spd
+    {
         get;
     }
 }

@@ -1,6 +1,7 @@
 namespace SpaceBattle.lib;
 
-public class RotateCommand:ICommand{
+public class RotateCommand : ICommand
+{
     IRotatable obj;
     public RotateCommand(IRotatable a)
     {
