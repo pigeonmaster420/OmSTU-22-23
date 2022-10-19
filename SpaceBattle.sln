@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.lib", "SpaceBattle.Lib\SpaceBattle.lib.csproj", "{47C4779B-C0BC-4A9D-91DD-7BBE667863C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.lib", "SpaceBattle.lib\SpaceBattle.lib.csproj", "{47C4779B-C0BC-4A9D-91DD-7BBE667863C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.Lib.Test", "SpaceBattle.Lib.Test\SpaceBattle.Lib.Test.csproj", "{C9EA6116-090E-4FC3-87D2-7B19AC840B1A}"
 EndProject
