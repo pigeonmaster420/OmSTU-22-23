@@ -1,4 +1,4 @@
-namespace SpaceBattle.Lib;
+namespace SpaceBattle.lib;
 
 public class MoveCommand:ICommand{
     IMovable obj;

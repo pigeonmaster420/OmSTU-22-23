@@ -1,5 +1,5 @@
 using System.Numerics;
-namespace SpaceBattle.Lib;
+namespace SpaceBattle.lib;
 
 public interface IMovable
 {

@@ -1,5 +1,5 @@
 ﻿using System.Numerics;
-namespace SpaceBattle.Lib;
+namespace SpaceBattle.lib;
 public class Ship: IMovable, IRotatable
 {
     public float bufangle
