@@ -22,7 +22,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
-    - name: Python Coverage Comment
-      uses: py-cov-action/python-coverage-comment-action@v2.2.0
+      run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage" -r "./coverage1.xml"
 
