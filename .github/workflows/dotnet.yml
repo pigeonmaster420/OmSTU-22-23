@@ -22,13 +22,13 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true
+      run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage"
     - uses: actions/checkout@master
     - name: Codecov
       uses: codecov/codecov-action@v3.1.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        files: ./coverage.cobertura.xml
+        directory: ./SpaceBattle.lib.Test\TestResults
         flags: unittests, integration
         name: codecov-umbrella
         fail_ci_if_error: false
