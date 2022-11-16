@@ -22,15 +22,15 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test --no-build --verbosity normal -–collect:”XPlat Code Coverage”
     - uses: actions/checkout@master
     - name: Codecov
-      uses: codecov/codecov-action@v3
+      uses: actions/codecov-action@v3.1.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        files: ./coverage1.xml
+        files: "./TestResults/24116e48-fd96-4a7c-800c-1bfd2a4bbd1d/coverage.cobertura.xml"
         directory: ./
-        flags: integration
+        flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: false
         verbose: true
