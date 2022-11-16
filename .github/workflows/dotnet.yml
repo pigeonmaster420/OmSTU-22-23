@@ -25,7 +25,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - uses: actions/checkout@master
     - name: Codecov
-      uses: actions/codecov-action@v3
+      uses: actions/codecov-action@v3.1.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage1.xml
