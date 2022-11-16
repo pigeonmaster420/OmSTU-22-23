@@ -23,8 +23,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      uses: actions/checkout@master
-      name: Codecov
+    - uses: actions/checkout@master
+    - name: Codecov
       uses: actions/codecov-action@v3
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
