@@ -28,7 +28,7 @@ jobs:
       uses: codecov/codecov-action@v3.1.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        directory: ./TestResults\24116e48-fd96-4a7c-800c-1bfd2a4bbd1d
+        files: ./coverage.cobertura.xml
         flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: false
