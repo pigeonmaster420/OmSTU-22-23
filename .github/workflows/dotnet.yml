@@ -8,7 +8,7 @@ on:
         required: true
         default: 'Manual run'
 
-  pull_request:
+  push_request:
     branches: [ "lab1" ]
 
 jobs:
