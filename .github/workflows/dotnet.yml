@@ -1,25 +1,18 @@
 name: .NET
 
 on:
-  workflow_dispatch:
-    inputs:
-      reason:
-        description: 'The reason for running the workflow'
-        required: true
-        default: 'Manual run'
-
-  push_request:
+  push:
     branches: [ "lab1" ]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v3
-    - name: 'Print manual run reason'
-      if: ${{ github.event_name == 'workflow_dispatch' }}
-      run: |
-        echo 'Reason: ${{ github.event.inputs.reason }}'
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
@@ -40,3 +33,4 @@ jobs:
         name: codecov-umbrella
         fail_ci_if_error: false
         verbose: true
+
