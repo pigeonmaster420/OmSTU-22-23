@@ -48,4 +48,10 @@ public class RotateTests
 
         Assert.Throws<Exception>(() => rotate.execute());
     }
+    [Fact]
+    public void NegativeInvalidRationalNumber()
+    {
+        var mock = new Mock<IRotatable>();
+        Assert.Throws<Exception>(() => mock.SetupProperty<rational>(m => m.angle, new rational(0,0)));
+    }
 }
