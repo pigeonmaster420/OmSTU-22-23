@@ -29,6 +29,7 @@ jobs:
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         directory: ./SpaceBattle.lib.Test/TestResults/
+        files: ./coverage.cobertura.xml
         flags: unittests, integration
         name: codecov-umbrella
         fail_ci_if_error: false
