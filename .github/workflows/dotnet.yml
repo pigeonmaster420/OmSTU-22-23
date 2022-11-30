@@ -24,12 +24,6 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=cobertura
     - uses: actions/checkout@master
-    - name: Code Coverage Summary
-      uses: irongut/CodeCoverageSummary@v1.3.0
-      with:
-        filename: coverage.cobertura.xml
-        badge: true
-        output: both
     - name: Codecov
       uses: codecov/codecov-action@v3.1.1
       with:
