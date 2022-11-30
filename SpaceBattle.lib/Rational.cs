@@ -1,20 +1,20 @@
 namespace SpaceBattle.lib;
 
-public class rational
+public class Rational
 {
-    public int a;
-    public int b;
-    public rational()
+    int a;
+    int b;
+    public Rational()
     {
         a = 0;
         b = 1;
     }
-    public rational(int c)
+    public Rational(int c)
     {
         a = c;
         b = 1;
     }
-    public rational(int c, int d)
+    public Rational(int c, int d)
     {
         if (d != 0)
         {
@@ -26,11 +26,22 @@ public class rational
             throw new Exception();
         }
     }
-    public static rational operator +(rational c, rational d)
+    public static Rational operator +(Rational c, Rational d)
     {
-        rational e = new rational();
+        Rational e = new Rational();
         e.b = c.b * d.b;
         e.a = (c.a * d.b) + (d.a * c.b);
         return e;
+    }
+    public bool Equality(int a, int b)
+    {
+        if (a == this.a && b == this.b)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

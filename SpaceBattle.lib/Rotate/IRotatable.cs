@@ -2,12 +2,12 @@ namespace SpaceBattle.lib;
 
 public interface IRotatable
 {
-    rational angle
+    Rational angle
     {
         get;
         set;
     }
-    rational rotatespd
+    Rational rotatespd
     {
         get;
     }
