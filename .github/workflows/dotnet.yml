@@ -22,13 +22,12 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=cobertura
+      run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutput=./ /p:CoverletOutputFormat=cobertura
     - uses: actions/checkout@master
     - name: Codecov
       uses: codecov/codecov-action@v3.1.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        directory: ./SpaceBattle.lib.Test/TestResults/
         files: ./coverage.cobertura.xml
         flags: unittests, integration
         name: codecov-umbrella
