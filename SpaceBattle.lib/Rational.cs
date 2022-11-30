@@ -29,32 +29,8 @@ public class rational
     public static rational operator +(rational c, rational d)
     {
         rational e = new rational();
-        if (c.b == d.b)
-        {
-            e.a = c.a + d.a;
-            e.b = c.b;
-        }
-        else
-        {
-            e.b = c.b * d.b;
-            e.a = (c.a * d.b) + (d.a * c.b);
-        }
-        int m = e.a;
-        int n = e.b;
-        while(m != n)
-            {
-                if(m > n)
-                {
-                    m = m - n;
-                }
-                else
-                {
-                    n = n - m;
-                }
-            }
-        int nod = n;
-        e.a = e.a / nod;
-        e.b = e.b / nod;
+        e.b = c.b * d.b;
+        e.a = (c.a * d.b) + (d.a * c.b);
         return e;
     }
 }
