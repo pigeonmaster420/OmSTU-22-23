@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.lib", "SpaceBattle.lib\SpaceBattle.lib.csproj", "{4BC6318F-E2AB-49A5-A28A-A10ABEA933E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.lib", "SpaceBattle.lib\SpaceBattle.lib.csproj", "{F135E952-1D39-4B46-AAA3-48F850D8E1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.lib.Test", "SpaceBattle.lib.Test\SpaceBattle.lib.Test.csproj", "{F4F117D2-555D-4521-A782-F7E3716C44BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceBattle.lib.Test", "SpaceBattle.lib.Test\SpaceBattle.lib.Test.csproj", "{A09042AA-1DF1-405F-997D-B1F8AC808125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4BC6318F-E2AB-49A5-A28A-A10ABEA933E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BC6318F-E2AB-49A5-A28A-A10ABEA933E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BC6318F-E2AB-49A5-A28A-A10ABEA933E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BC6318F-E2AB-49A5-A28A-A10ABEA933E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4F117D2-555D-4521-A782-F7E3716C44BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4F117D2-555D-4521-A782-F7E3716C44BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4F117D2-555D-4521-A782-F7E3716C44BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4F117D2-555D-4521-A782-F7E3716C44BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F135E952-1D39-4B46-AAA3-48F850D8E1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F135E952-1D39-4B46-AAA3-48F850D8E1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F135E952-1D39-4B46-AAA3-48F850D8E1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F135E952-1D39-4B46-AAA3-48F850D8E1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09042AA-1DF1-405F-997D-B1F8AC808125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09042AA-1DF1-405F-997D-B1F8AC808125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09042AA-1DF1-405F-997D-B1F8AC808125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09042AA-1DF1-405F-997D-B1F8AC808125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
