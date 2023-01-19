@@ -6,6 +6,10 @@ on:
       reason:
         description: 'The reason for running the workflow'
         required: true
+        type: choice
+        options:
+        - Manual run
+        - Debug
         default: 'Manual run' 
 
 jobs:
@@ -18,7 +22,6 @@ jobs:
     - name: 'Print manual run reason'
       if: ${{ github.event_name == 'workflow_dispatch' }}
       run: |
-        echo 'Reason: ${{ github.events.inputs.reason }}'
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
