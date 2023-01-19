@@ -1,4 +1,4 @@
-namespace BattleSpace.Lib.Test;
+namespace SpaceBattle.Lib.Test;
 using SpaceBattle;
 using Moq;
 using System.Collections.Generic;
@@ -62,6 +62,7 @@ public class Tests_exceptionHandler
         }
         command.Verify();
     }
+    [Fact]
     public Test4() 
     {
         еxceptionHandler handler = new еxceptionHandler();
