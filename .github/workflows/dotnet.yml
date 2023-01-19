@@ -6,6 +6,10 @@ on:
       reason:
         description: 'The reason for running the workflow'
         required: true
+        type: choice
+        options:
+        - Manual run
+        - Debug
         default: 'Manual run' 
 
 jobs:
