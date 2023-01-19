@@ -2,7 +2,7 @@ using Hwdtech;
 using Hwdtech.Ioc;
 using Moq;
 
-namespace BattleSpace.Lib.Test;
+namespace SpaceBattle.Lib.Test;
 
 public class EndMoveCommandTests {
     public EndMoveCommandTests() {
