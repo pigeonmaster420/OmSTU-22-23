@@ -3,9 +3,9 @@ namespace SpaceBattle.lib;
 public class RotateCommand : ICommand
 {
     IRotatable obj;
-    public RotateCommand(IRotatable a)
+    public RotateCommand(IRotatable b)
     {
-        obj = a;
+        obj = b;
     }
     public void execute()
     {
