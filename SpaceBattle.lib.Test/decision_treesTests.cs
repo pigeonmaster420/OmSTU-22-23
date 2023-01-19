@@ -1,4 +1,4 @@
-namespace BattleSpace.Lib.Test;
+namespace SpaceBattle.Lib.Test;
 using Hwdtech;
 public class Tests_decision_trees {
     Mock<IStrategy> tree_CreateStrategy = new Mock<IStrategy>();
