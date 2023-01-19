@@ -5,7 +5,7 @@ public class EndMoveCommand : ICommand
     public IMoveCommandEndable obj;
     public EndMoveCommand(MoveCommandEndable a)
     {
-       this.obj = a;
+       obj = a;
     }
     public void Execute()
     {
