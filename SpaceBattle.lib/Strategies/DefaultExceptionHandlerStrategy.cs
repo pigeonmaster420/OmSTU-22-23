@@ -1,4 +1,4 @@
-namespace SpaceBattle.Strategies;
+namespace SpaceBattle.lib.Strategies;
 
 
 public class DefaultExceptionHandlerStrategy : IStrategy

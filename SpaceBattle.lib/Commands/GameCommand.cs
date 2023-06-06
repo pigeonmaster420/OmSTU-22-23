@@ -1,4 +1,4 @@
-namespace SpaceBattle.Commands;
+namespace SpaceBattle.lib.Commands;
 
 public class GameCommand : ICommand
 {

@@ -1,4 +1,4 @@
-namespace SpaceBattleTests.Commands;
+namespace SpaceBattle.lib.Test.Commands;
 
 using Moq;
 

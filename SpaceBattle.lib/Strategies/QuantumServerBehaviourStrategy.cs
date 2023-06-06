@@ -1,4 +1,4 @@
-namespace SpaceBattle.Strategies;
+namespace SpaceBattle.lib.Strategies;
 
 using System.Diagnostics;
 

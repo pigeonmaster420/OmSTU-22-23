@@ -1,4 +1,4 @@
-namespace SpaceBattleTests.Strategies;
+namespace SpaceBattle.lib.Test.Strategies;
 
 using Moq;
 using SpaceBattle.Strategies;
