@@ -56,8 +56,8 @@ public class EndpointTests
         games.TryAdd("game1", "thread1");
         var cestrat = new CreateEndpointStrategy();
         IoC.Resolve<Hwdtech.ICommand>("IoC.Register", "Create Endpoint", (object[] args) => cestrat.Execute(args)).Execute();
-        var request = new CommandRequest{Command = "take on me",  Gid = "game1"};
-        var d = new Dictionary<string, string>(){{"take me on", "i'll be gone"}, {"09", "24"}};
+        var request = new CommandRequest{Command = "never gonna",  Gid = "game1"};
+        var d = new Dictionary<string, string>(){{"give you up", "let you down"}, {"05", "23"}};
         request.Args.Add(d);
         IoC.Resolve<Hwdtech.ICommand>("IoC.Register", "Commands.AutoCreate.ByName", (object[] args) =>
             {
