@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "wSvEI2PhpvpLf0zALmEuc8t4uAmh0UeRgHYw8tg2eI55c+LpfjvEL0Cz54cU1i+4ra1jYfxmE3POxosa5Iw93g==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\Project_2\\9_1\\SpaceGame.Console\\SpaceGame.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HOME\\.nuget\\packages\\hwdtech.core\\1.0.0\\hwdtech.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\hwdtech.ioc\\1.0.0\\hwdtech.ioc.1.0.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\hwdtech.ioc.scopebasediocimplementation\\1.0.0\\hwdtech.ioc.scopebasediocimplementation.1.0.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\HOME\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
