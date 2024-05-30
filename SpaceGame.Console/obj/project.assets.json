@@ -88,6 +88,19 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "SpaceGame.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Hwdtech.Ioc.ScopeBasedIoCImplementation": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SpaceGame.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SpaceGame.Lib.dll": {}
+        }
       }
     }
   },
@@ -388,11 +401,17 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "SpaceGame.Lib/1.0.0": {
+      "type": "project",
+      "path": "../SpaceGame.Lib/SpaceGame.Lib.csproj",
+      "msbuildProject": "../SpaceGame.Lib/SpaceGame.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Hwdtech.Ioc.ScopeBasedIoCImplementation >= 1.0.0"
+      "Hwdtech.Ioc.ScopeBasedIoCImplementation >= 1.0.0",
+      "SpaceGame.Lib >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -401,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
-      "projectName": "SpaceGame.Lib",
-      "projectPath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
+      "projectUniqueName": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Console\\SpaceGame.Console.csproj",
+      "projectName": "SpaceGame.Console",
+      "projectPath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Console\\SpaceGame.Console.csproj",
       "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Lib\\obj\\",
+      "outputPath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Console\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -421,7 +440,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj": {
+              "projectPath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

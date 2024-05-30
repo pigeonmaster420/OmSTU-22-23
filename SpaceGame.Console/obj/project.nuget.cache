@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bJ5yzcbmusMMUKnNqkktYIGW1cv8cW/Gugi6ecx48aGqhyEonGq3NzsgeSWdeD6Nz31Rdei1umj97E1svMQ3w==",
+  "dgSpecHash": "pqkwxau20k4322MvcjvcUFvMBHOhhX9F8cAoZ7J9nloCC9N9qAr5z4XKOCUEk+K5/u7qSP7sUbL+h8KRQ7vZbA==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
+  "projectFilePath": "D:\\Desktop\\Project_2\\7_1\\SpaceGame.Console\\SpaceGame.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HOME\\.nuget\\packages\\hwdtech.core\\1.0.0\\hwdtech.core.1.0.0.nupkg.sha512",
     "C:\\Users\\HOME\\.nuget\\packages\\hwdtech.ioc\\1.0.0\\hwdtech.ioc.1.0.0.nupkg.sha512",
