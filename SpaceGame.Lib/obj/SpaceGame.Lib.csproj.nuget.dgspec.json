@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Project_2\\6_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj": {}
+    "D:\\Desktop\\Project_2\\8_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Project_2\\6_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj": {
+    "D:\\Desktop\\Project_2\\8_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Project_2\\6_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
+        "projectUniqueName": "D:\\Desktop\\Project_2\\8_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
         "projectName": "SpaceGame.Lib",
-        "projectPath": "D:\\Desktop\\Project_2\\6_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
+        "projectPath": "D:\\Desktop\\Project_2\\8_1\\SpaceGame.Lib\\SpaceGame.Lib.csproj",
         "packagesPath": "C:\\Users\\HOME\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Project_2\\6_1\\SpaceGame.Lib\\obj\\",
+        "outputPath": "D:\\Desktop\\Project_2\\8_1\\SpaceGame.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HOME\\AppData\\Roaming\\NuGet\\NuGet.Config",
